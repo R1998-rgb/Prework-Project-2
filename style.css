@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+#navigation-link {
+    background-color: white;
+}
+
+
+.nav-link,
+.info-link,
+.footer-link {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline
+}
+
+#home {
+    background-color: yellow;
+    height: 900px;
+}
+
+
+
+#logos {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 2px;
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+#home-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 50px;
+    color: black;
+    font-weight: 50000;
+}
+
+
+#bitmoji {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.watch-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+
+.link-button {
+    text-align: center;
+    cursor: pointer;
+    background: white;
+    border-color: white;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+#col {
+
+    background: #F8F9FB;
+}
+
+#list {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    min-height: 15px;
+    min-width: 200px;
+    padding-top: 30px;
+
+
+}
+
+#list ul {
+    list-style: none;
+
+}
+
+
+#lan {
+    margin-left: 120px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: yellow;
+    padding: 10px;
+
+}
+
+
+.box div {
+    background-color: yellow;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+.listf {
+    display: inline-grid;
+}
+
+footer {
+    padding: 10px;
+    left: 50;
+    bottom: 0;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+
+#m2 {
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+
+
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info-link {
+    font-size: 17px;
+    font-weight: 500;
+    color: grey;
+}
+
+.info-link:hover {
+    color: black;
+}
+
+
+
+select {
+    width: 250px;
+    height: 50px;
+
+}
